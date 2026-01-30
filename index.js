@@ -9,11 +9,11 @@ let socket;
 let reconnectTimeout = null;
 
 function connect() {
-    console.log("Creating socket...");
+    console.log("create");
     socket = new WebSocket(WS_URL);
 
     socket.on("open", () => {
-        console.log("[open] Connection established");
+        console.log("open");
 
         socket.send(
             JSON.stringify({
@@ -28,7 +28,7 @@ function connect() {
             const text = data.toString();
             const parsed = JSON.parse(text);
 
-            console.log("[message] Data received:", parsed);
+            console.log("message dta:", parsed);
 
 
             fs.appendFile(
@@ -36,25 +36,25 @@ function connect() {
                 text + "\n",
                 (err) => {
                     if (err) {
-                        console.error("File append error:", err);
+                        console.error(" append error:", err);
                     }
                 }
             );
         } catch (err) {
-            console.error("Failed to parse message", err);
+            console.error(" parse message", err);
         }
     });
 
     socket.on("close", (code, reason) => {
         console.log(
-            `[close] code=${code} reason=${reason.toString()}`
+            `code=${code} reason=${reason.toString()}`
         );
 
         scheduleReconnect();
     });
 
     socket.on("error", (error) => {
-        console.error("[error] WebSocket error", error);
+        console.error("WebSocket error", error);
         socket.close();
     });
 }
@@ -62,12 +62,12 @@ function connect() {
 function scheduleReconnect() {
     if (reconnectTimeout) return;
 
-    console.log("Reconnecting in 3 seconds...");
+    console.log("reconnecting");
     reconnectTimeout = setTimeout(() => {
         reconnectTimeout = null;
         connect();
     }, 3000);
 }
 
-// start
+
 connect();
