@@ -1,0 +1,27 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\SOOZI\.npmrc
+5 silly config load:file:C:\Users\SOOZI\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm init
+7 verbose argv "init" "--yes"
+8 verbose logfile logs-max:10 dir:C:\Users\SOOZI\Desktop\crawlers\blockchain_bitcoin_node\UsersSOOZIAppDataLocalnpm-cache\_logs\2026-01-29T22_31_34_668Z-
+9 verbose logfile C:\Users\SOOZI\Desktop\crawlers\blockchain_bitcoin_node\UsersSOOZIAppDataLocalnpm-cache\_logs\2026-01-29T22_31_34_668Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly package data {
+11 silly package data   name: 'blockchain_bitcoin_node',
+11 silly package data   version: '1.0.0',
+11 silly package data   main: 'index.js',
+11 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+11 silly package data   keywords: [],
+11 silly package data   author: '',
+11 silly package data   license: 'ISC',
+11 silly package data   description: ''
+11 silly package data }
+12 verbose cwd C:\Users\SOOZI\Desktop\crawlers\blockchain_bitcoin_node
+13 verbose os Windows_NT 10.0.19045
+14 verbose node v22.16.0
+15 verbose npm  v10.9.2
+16 verbose exit 0
+17 info ok

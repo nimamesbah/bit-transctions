@@ -1,0 +1,41 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\SOOZI\Desktop\crawlers\blockchain_bitcoin_node\.npmrc
+5 silly config load:file:C:\Users\SOOZI\.npmrc
+6 silly config load:file:C:\Users\SOOZI\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i ws
+8 verbose argv "i" "ws"
+9 verbose logfile logs-max:10 dir:C:\Users\SOOZI\Desktop\crawlers\blockchain_bitcoin_node\UsersSOOZIAppDataLocalnpm-cache\_logs\2026-01-29T22_31_44_967Z-
+10 verbose logfile C:\Users\SOOZI\Desktop\crawlers\blockchain_bitcoin_node\UsersSOOZIAppDataLocalnpm-cache\_logs\2026-01-29T22_31_44_967Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest ws@*
+15 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/ws 8131ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+18 silly fetch manifest bufferutil@^4.0.1
+19 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/bufferutil 1470ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+22 silly fetch manifest utf-8-validate@>=5.0.2
+23 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 530ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+26 silly placeDep ROOT ws@8.19.0 OK for: blockchain_bitcoin_node@1.0.0 want: *
+27 silly reify moves {}
+28 silly audit bulk request { ws: [ '8.19.0' ] }
+29 http cache ws@https://registry.npmjs.org/ws/-/ws-8.19.0.tgz 0ms (cache hit)
+30 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.19.0.tgz. Extracting by manifest.
+31 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 2273ms
+32 silly audit report {}
+33 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.19.0.tgz 2377ms (cache miss)
+34 silly ADD node_modules/ws
+35 verbose cwd C:\Users\SOOZI\Desktop\crawlers\blockchain_bitcoin_node
+36 verbose os Windows_NT 10.0.19045
+37 verbose node v22.16.0
+38 verbose npm  v10.9.2
+39 verbose exit 0
+40 info ok
